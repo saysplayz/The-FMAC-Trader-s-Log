@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',           // Important for GitHub Pages
+  output: 'export',
   images: {
-    unoptimized: true,        // Required for static export
+    unoptimized: true,
   },
-  basePath: '/The-FMAC-Trader-s-Log',  // ← Your repository name
+  basePath: '/The-FMAC-Trader-s-Log',   // ← Make sure this matches your repo name exactly
   trailingSlash: true,
 };
 
